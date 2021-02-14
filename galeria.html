@@ -7,9 +7,11 @@
     <!-- boststrap -->
     <link rel="stylesheet" href="style´s/bootstrap.min.css">
     <!-- iconos de webfont -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"> -->
     <!-- css -->
     <link rel="stylesheet" href="style´s/style.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link rel="stylesheet" href="style´s/lightbox.min.css">
     <!-- animate -->
@@ -39,13 +41,16 @@
           <li><a href="./inicio.html">Inicio</a></li>
           <li><a href="./nosotros.html">Nosotros</a></li>
           <li><a href="./contenido.html">Contenido</a></li>
-          <!-- <li><a href="">Galeria</a></li> -->
+          <li><a href="" style="color: #c32c20;">Galería</a></li>
           <li><a href="./contacto.html">Contacto</a></li>
+          <div class="socialmenu">
+            <img src="./images/logo.png" alt="">
+        </div>
         </ul>
       </nav>
 <!-- cierre menu -->
 
-<div class="titulos col-lg-12 col-md-12 col-sm-12"><h1>Galeria</h1></div>
+<div class="titulos col-lg-12 col-md-12 col-sm-12"><h1>Galería</h1></div>
 
 
 <section>
@@ -55,57 +60,260 @@
     <a href="images/lasombrerona.jpg" data-lightbox="images" data-title="La Sombrerona">
         <img src="images/lasombrerona.jpg" alt="La Sombrerona">
    </a>
-   <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+  <div class="w3-container toto">
+    <button onclick="document.getElementById('id01').style.display='block'" class="histoboton">Historia</button>
+
+    <!-- <div class="heart-btn">
+      <div class="content">
+        <span class="heart"></span>
+        <span class="numb"></span>
+      </div>
+    </div> -->
+
+    <div id="id01" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>La sombrerona</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- <button><a href="mitos/la-sombrerona.html">Saber más</a></button> -->
+   <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
    </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/latunda.jpg" data-lightbox="images" data-title="La Tunda">
         <img src="images/latunda.jpg" alt="La Tunda">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+      <button onclick="document.getElementById('id02').style.display='block'" class="histoboton">Historia</button>
+
+      <!-- <div class="heart-btn">
+        <div class="content">
+          <span class="heart"></span>
+          <span class="numb"></span>
+        </div>
+      </div> -->
+
+      <div id="id02" class="w3-modal modax">
+        <div class="w3-modal-content modaxinter">
+          <div class="w3-container">
+            <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+            <h1>La Tunda</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                  reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                  alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                  reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                  alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/venadodeoro.jpg" data-lightbox="images" data-title="El venado de oro">
         <img src="images/venadodeoro.jpg" alt="El venado de oro">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+      <button onclick="document.getElementById('id03').style.display='block'" class="histoboton">Historia</button>
+      <div id="id03" class="w3-modal modax">
+        <div class="w3-modal-content modaxinter">
+          <div class="w3-container">
+            <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+            <h1>El venado de Oro</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                  reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                  alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                  reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                  alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/juanmachete.jpg" data-lightbox="images" data-title="Juan Machete">
         <img src="images/juanmachete.jpg" alt="Juan Machete">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+    <button onclick="document.getElementById('id04').style.display='block'" class="histoboton">Historia</button>
+    <div id="id04" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>Juan Machete</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/sacerdote.jpg" data-lightbox="images" data-title="Sacerdote sin cabeza">
         <img src="images/sacerdote.jpg" alt="Sacerdote sin cabeza">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+    <button onclick="document.getElementById('id05').style.display='block'" class="histoboton">Historia</button>
+    <div id="id05" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>El Sacerdote sin Cabeza</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/baltazar.jpg" data-lightbox="images" data-title="El duende Baltazar">
-        <img src="images/baltazar.jpg" alt="El duende Baltazar">
+        <img src="images/baltazar.jpg" alt="El Duende Baltazar">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+    <button onclick="document.getElementById('id06').style.display='block'" class="histoboton">Historia</button>
+    <div id="id06" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>El Duende Baltazar</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/bochica.jpg" data-lightbox="images" data-title="Bochica">
         <img src="images/bochica.jpg" alt="Bochica">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+    <button onclick="document.getElementById('id07').style.display='block'" class="histoboton">Historia</button>
+    <div id="id07" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>Bochica</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
    <div class="col-lg-3 col-md-4 col-sm-6 minimi">
     <a href="images/elmohan.jpg" data-lightbox="images" data-title="El Mohán">
         <img src="images/elmohan.jpg" alt="El Mohán">
     </a>
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-   </div>
+    <!-- <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTrascendiendo-Recuerdos-112455130474480&width=115&layout=button&action=like&size=small&share=true&height=65&appId" width="115" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+    <div class="w3-container toto">
+    <button onclick="document.getElementById('id08').style.display='block'" class="histoboton">Historia</button>
+    <div id="id08" class="w3-modal modax">
+      <div class="w3-modal-content modaxinter">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright odo">&times;</span>
+          <h1>El Mohán</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+              reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+              alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti adipisci numquam 
+                reprehenderit quaerat quas expedita doloribus ipsam labore. Adipisci officiis omnis 
+                alias natus totam, vel ipsum sequi sint aspernatur quisquam?
+              </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
   </div>
 </section>
@@ -147,6 +355,17 @@
     <script src="js/scrip.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- <script>
+      $(document).ready(function(){
+        $('.content').click(function(){
+          $('.content').toggleClass("heart-active")
+          $('.text').toggleClass("heart-active")
+          $('.numb').toggleClass("heart-active")
+          $('.heart').toggleClass("heart-active")
+        });
+      });
+    </script> -->
 
 </body>
 </html>
