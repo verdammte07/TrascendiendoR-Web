@@ -1029,6 +1029,7 @@ iframe{
 }
 .gallery .modax{
     background-color: rgb(60, 60, 60, .9);
+    padding: 20px;
 }
 .gallery .modaxinter{
     background-color: rgba(30, 30, 30);
@@ -1038,8 +1039,9 @@ iframe{
     color: white;
     width: 80vw;
     overflow: auto;
-    max-height: 80vh;
+    max-height: 85vh;
     padding: 20px 100px;
+    margin: 0px auto;
 }
 .gallery .modaxinter h1{
     font-family: firs order;
@@ -1309,10 +1311,10 @@ footer{
 /* menu */
     .hamburger{
         left: 91%;
-        top: 95%;
+        top: 90%;
         width: 42px;
         height: 40px;
-        border-radius: 10px 0 0 0;
+        border-radius: 0px;
     }
     ._layer{
         margin-bottom: 3px;
@@ -1450,9 +1452,9 @@ footer{
     }
     .gallery .modaxinter{
         width: 80vw;
-        height: 100vh;
+
+        max-height: 95%;
         overflow: auto;
-        max-height: 100vh;
         padding: 20px 30px;
     }
     .gallery .modaxinter p{
@@ -1616,7 +1618,9 @@ footer{
         transform: translateY(0);
     }
 }
-
+script{
+    display: unset;
+}
 /* ESTILOS DE LOS MITOS */
 /* .cajamitos{
     max-width: 100%;
