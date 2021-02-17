@@ -1328,9 +1328,10 @@ footer{
         border-radius: 0;
         border: solid 2px white;
     }
-    .menuppal ul li { 
-        font-size: 35px;
-        margin: 30px auto;
+    .menuppal ul li {
+        background: unset;
+        font-size: 30px;
+        margin: 15px auto;
     }
 
 /* logotipo */
@@ -1452,7 +1453,6 @@ footer{
     }
     .gallery .modaxinter{
         width: 80vw;
-
         max-height: 95%;
         overflow: auto;
         padding: 20px 30px;
@@ -1618,8 +1618,9 @@ footer{
         transform: translateY(0);
     }
 }
-script{
-    display: unset;
+.noseve{
+    display: none;
+    background: unset;
 }
 /* ESTILOS DE LOS MITOS */
 /* .cajamitos{

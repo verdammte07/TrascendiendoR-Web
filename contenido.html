@@ -182,17 +182,15 @@
 <script src="js/scrip.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- HADA -->
-    <script>
+    <script class="noseve">
         var btn = document.getElementsByClassName("btn");
         var gallery = document.getElementById("gallery");
-
         var images = new Array(
             "./Personajes/hada.png",
             "./Personajes/huron.png",
             "./Personajes/pequeño.png",
             "./Personajes/grande.png"
         );
-
         for(let i=0; i<btn.length; i++){
             btn[i].onclick = function(){
                 gallery.src = images[i];
